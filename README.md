@@ -169,18 +169,21 @@ used for Density-Aware Chamfer Distance calculation.
 After ICP registration, the aligned before-grasping and
 after-grasping point clouds are used to calculate DCD.
 
-DCD provides a quantitative measure of geometric differences
-between the two point-cloud representations.
+The following Python script is provided for this purpose:
 
-The DCD implementation and associated processing utilities
-are included in:
+[dcd_bench.py](./Density_aware_Chamfer_Distance/dcd_bench.py)
 
-[Density_aware_Chamfer_Distance](./Density_aware_Chamfer_Distance/)
+Navigate to the DCD directory:
 
-For additional information about the original DCD method,
-refer to:
+```bash
+cd Density_aware_Chamfer_Distance
+```
 
-https://github.com/wutong16/Density_aware_Chamfer_Distance
+Execute the conversion script:
+
+```bash
+python3 dcd_bench.py
+```
 
 ## Workflow Summary
 
