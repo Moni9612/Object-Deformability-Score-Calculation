@@ -184,25 +184,3 @@ Execute the conversion script:
 ```bash
 python3 dcd_bench.py
 ```
-
-## Workflow Summary
-
-RecFusion 3D Mesh Reconstruction
-            |
-            v
-Point-Cloud Format Conversion
-       (binary_ascii.py)
-            |
-            v
-Coarse Alignment Using MeshLab
-            |
-            v
-Fine Alignment Using ICP
-      (icp_alignment.py)
-            |
-            v
-Density-Aware Chamfer Distance
-         Calculation
-            |
-            v
-Object Deformability Score
