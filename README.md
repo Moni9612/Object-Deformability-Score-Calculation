@@ -24,14 +24,21 @@ and after robotic grasping.
 3. Connect a compatible depth camera to the computer.
 4. Launch RecFusion and verify that the camera is detected.
 
-### Step 2: Generate 3D Meshes
+### Step 1: Install RecFusion
 
-1. Place the object within the scanning workspace.
-2. Configure the scanning parameters in RecFusion.
-3. Scan the object from multiple viewpoints to reconstruct its
-   complete 3D geometry.
-4. Export the reconstructed 3D mesh in PLY format.
-5. Repeat the procedure after robotic grasping.
+1. Download RecFusion from the official website:
+   https://www.recfusion.net/
+
+2. Install RecFusion following the official installation instructions.
+
+   <p align="center">
+     <img src="DCD.png" alt="3D Scanning Platform" width="650">
+   </p>
+
+3. Use the 3D scanning platform to reconstruct the 3D geometry of each object by moving the camera around the object to capture its geometry from multiple viewpoints.
+   
+5. Export the reconstructed 3D mesh in PLY format.
+6. Repeat the procedure after before and after grasping each object to capture the meshes.
 
 Two reconstructed meshes are obtained for each object:
 
